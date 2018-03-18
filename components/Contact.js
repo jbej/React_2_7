@@ -29,7 +29,7 @@ var Contact = React.createClass({
     render: function() {
         return (
             <div className={'contactItem'}>
-                <img className={'contactImage'} src={'./img/contacts.svg'}/>
+                <img className={'contactImage'} src={'./img/contacts.jpg'}/>
                 <p className={'contactLabel'}>
                     Imię: {this.props.contact.firstName}
                 </p>
