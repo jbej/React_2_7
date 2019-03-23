@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
+body {
+    display: flex;
+    justify-content: center;
+    background: url('./img/stripe.png');
+}
+
+body * {
+    font-family: 'Oxygen', sans-serif; 
+}
+
+#app {
+    width: 50%;
+}
+
+button {
+    height: 40px;
+    padding: 0 20px;
+    border: 0;
+    background-color: #2cc6f1;
+    color: white;
+}
+
+.contactForm {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(250, 248, 248, .95);
+}
+
+.contactForm > input {
+    height: 40px;
+    width: 40%;
+    border: 0;
+    border-bottom: 2px solid #000;
+    margin: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.contactForm > input[type='email'] {
+    width: 65%;
+}
+
+.contactsList {
+    padding: 0px;
+}
+
+.contactItem {
+    position: relative;
+    padding: 10px 20px 20px 150px;
+    border: 1px solid #000;
+    margin: 10px;
+    background-color: rgba(250, 248, 248, .95);
+}
+
+.contactImage {
+    position: absolute;
+    height: 80%;
+    left: 15px;
+    transform: translateY(-50%);
+    top: 50%;
+}
